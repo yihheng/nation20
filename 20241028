@@ -1,0 +1,17 @@
+# (base) fanyi1@MiWiFi-R3P-srv:/node1/national_pf/rarefy$ ^C
+# [1]   Done                    nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/pasted/rarefy_nat_20b151-250rarefied_to_19764232.000000_n_0.tsv > /node1/national_pf/rarefy/151-250_fliter.tsv
+# [2]   Done                    nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/pasted/rarefy_nat_20b251-350rarefied_to_19764232.000000_n_0.tsv > /node1/national_pf/rarefy/251-350_fliter.tsv
+# [3]   Done                    nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/pasted/rarefy_nat_20b351-450rarefied_to_19764232.000000_n_0.tsv > /node1/national_pf/rarefy/351-450_fliter.tsv
+# [4]   Done                    nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/pasted/rarefy_nat_20b451-550rarefied_to_19764232.000000_n_0.tsv > /node1/national_pf/rarefy/451-550_fliter.tsv
+# [5]   Done                    nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/pasted/rarefy_nat_20b551-650rarefied_to_19764232.000000_n_0.tsv > /node1/national_pf/rarefy/551-650_fliter.tsv
+# [6]-  Done                    nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/pasted/rarefy_nat_20b651-736rarefied_to_19764232.000000_n_0.tsv > /node1/national_pf/rarefy/651-736_fliter.tsv
+# [7]+  Done                    nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/pasted/rarefy_nat_20b51-150rarefied_to_19764232.000000_n_0.tsv > /node1/national_pf/rarefy/51-150_fliter.tsv
+# (base) fanyi1@MiWiFi-R3P-srv:/node1/national_pf/rarefy$ nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/all_length_new.txt > /node1/national_pf/rarefy/pf_length_fliter.txt &
+# [1]+  Running                 nohup awk 'NR==FNR {ids[$1]; next} $1 in ids' /node1/national_pf/rarefy/gene_filter_id.txt /mnt/new/fanyi/national_pf/split/all_length_new.txt > /node1/national_pf/rarefy/pf_length_fliter.txt &
+
+
+
+
+
+
+(base) fanyi1@MiWiFi-R3P-srv:/node1/national_pf/rarefy$ awk 'NR==FNR {ids[$1]; next} $1 in ids' gene_filter_id.txt pf_length.txt > pf_length_fliter_new.txt 
