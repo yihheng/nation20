@@ -12,6 +12,10 @@
 
 
 
-
+#过滤0值行，对length文件排序
+length文件有问题
+\t 和空格分别提取第二列和第一列，得到结果
 
 (base) fanyi1@MiWiFi-R3P-srv:/node1/national_pf/rarefy$ awk 'NR==FNR {ids[$1]; next} $1 in ids' gene_filter_id.txt pf_length.txt > pf_length_fliter_new.txt 
+加表头
+
